@@ -1389,6 +1389,26 @@ img {
     @keyframes spin {
         to { transform: rotate(360deg); }
     }
+    
+    /* Print styles for better printing */
+    @media print {
+        .navbar, .back-to-top, .scroll-indicator, .cta-section, .footer, .breadcrumb {
+            display: none !important;
+        }
+        
+        body {
+            font-size: 12pt;
+            line-height: 1.5;
+        }
+        
+        .section-padding {
+            padding: 20px 0;
+        }
+        
+        a[href]:after {
+            content: " (" attr(href) ")";
+        }
+    }
 }
 
 @media (max-width: 575px) {
