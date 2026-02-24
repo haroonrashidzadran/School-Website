@@ -2,6 +2,10 @@
 <br/>
 <!-- PROJECT_DESCRIPTION -->
 <p align="center">
+  <a href="https://haroonrashidzadran.github.io/School-Website/">
+    <img src="https://img.shields.io/badge/Live%20Demo-View%20Website-brightgreen?style=for-the-badge" alt="Live Demo">
+  </a>
+  <br/><br/>
   <img src="https://img.shields.io/badge/Khair%20Un%20Nass%20Private%20High%20School-Education-blue?style=for-the-badge" alt="Khair Un Nass Private High School">
 </p>
 
