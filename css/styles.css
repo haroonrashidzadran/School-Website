@@ -1434,6 +1434,25 @@ img {
             content: " (" attr(href) ")";
         }
     }
+    
+    /* Improve form input accessibility */
+    .form-control:focus {
+        border-color: var(--primary);
+        box-shadow: 0 0 0 3px rgba(26, 54, 93, 0.1);
+        outline: none;
+    }
+    
+    /* Reduce motion for users who prefer it */
+    @media (prefers-reduced-motion: reduce) {
+        *,
+        *::before,
+        *::after {
+            animation-duration: 0.01ms !important;
+            animation-iteration-count: 1 !important;
+            transition-duration: 0.01ms !important;
+            scroll-behavior: auto !important;
+        }
+    }
 }
 
 @media (max-width: 575px) {
