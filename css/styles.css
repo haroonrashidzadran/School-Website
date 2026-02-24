@@ -288,6 +288,12 @@ img {
     width: 80%;
 }
 
+/* Improve link focus visibility */
+a:focus {
+    outline: 2px solid var(--secondary);
+    outline-offset: 2px;
+}
+
 .navbar-nav .nav-link:hover,
 .navbar-nav .nav-link.active {
     color: var(--secondary) !important;
