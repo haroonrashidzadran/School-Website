@@ -1479,6 +1479,17 @@ a:focus {
     }
 }
 
+/* Custom text selection color */
+::selection {
+    background: #c9a227;
+    color: #fff;
+}
+
+::-moz-selection {
+    background: #c9a227;
+    color: #fff;
+}
+
 @media (max-width: 575px) {
     .container {
         padding: 0 15px;
