@@ -207,6 +207,10 @@ img {
     box-shadow: var(--shadow-md);
 }
 
+.btn-primary:active {
+    transform: translateY(0);
+}
+
 .btn-secondary {
     background-color: transparent;
     color: var(--primary);
