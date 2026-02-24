@@ -564,6 +564,13 @@ img {
     opacity: 0.9;
 }
 
+/* Add smooth hover transition to cards */
+.program-card,
+.feature-card,
+.contact-info-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
 /* --------------------------------------------------
    PROGRAMS SECTION
    -------------------------------------------------- */
