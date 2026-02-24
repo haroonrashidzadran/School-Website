@@ -1334,6 +1334,11 @@ img {
     .statistic-number {
         font-size: 2.5rem;
     }
+    
+    /* Add smooth navbar transition */
+    .navbar {
+        transition: all 0.3s ease;
+    }
 }
 
 @media (max-width: 767px) {
